@@ -18,6 +18,12 @@ asthma_codes = codelist_from_csv(
     column="code",
 )
 
+fit_codes = codelist_from_csv(
+    "codelists/user-joewest-fit-and-fob-snomed.csv",
+    column="code",
+
+)
+
 asthma_inhaled_medication_codes = codelist_from_csv(
     "codelists/nhs-drug-refsets-asttrtatrisk1_cod.csv",
     column="code",
